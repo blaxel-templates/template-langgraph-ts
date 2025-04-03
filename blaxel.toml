@@ -1,5 +1,3 @@
-name = "agent-langchain"
-workspace = ""
 type = "agent"
 
 functions = ["all"]
