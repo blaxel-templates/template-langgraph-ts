@@ -1,17 +1,17 @@
-# Blaxel LangChain Agent
+# Blaxel LangGraph Agent
 
 <p align="center">
   <img src="https://blaxel.ai/logo.png" alt="Blaxel"/>
 </p>
 
-A template implementation of a conversational agent using LangChain and GPT-4. This agent demonstrates the power of LangChain for building interactive AI agents with tool integration capabilities.
+A template implementation of a conversational agent using LangGraph and GPT-4. This agent demonstrates the power of LangGraph for building interactive AI agents with tool integration capabilities.
 
 ## Features
 
 - Interactive conversational interface
 - Tool integration support (including weather and search capabilities)
 - Streaming responses for real-time interaction
-- Built on LangChain for efficient agent orchestration
+- Built on LangGraph for efficient agent orchestration
 - Easy deployment and integration with Blaxel platform
 
 ## Prerequisites
@@ -31,8 +31,8 @@ A template implementation of a conversational agent using LangChain and GPT-4. T
 **Clone the repository and install dependencies:**
 
 ```bash
-git clone https://github.com/beamlit/template-langchain-ts.git
-cd template-langchain-ts
+git clone https://github.com/beamlit/template-langgraph-ts.git
+cd template-langgraph-ts
 uv sync
 ```
 
@@ -73,7 +73,7 @@ This command uses your code and the configuration files under the `.blaxel` dire
 ## Project Structure
 
 - **src/index.ts** - Application entry point
-- **src/agent.ts** - Core agent implementation with LangChain integration
+- **src/agent.ts** - Core agent implementation with LangGraph integration
 - **blaxel.toml** - Blaxel deployment configuration
 
 ## License
