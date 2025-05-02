@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@blaxel/sdk':
-        specifier: 0.1.14
-        version: 0.1.14(676d282cdac73108ad7f1173fd8497b0)
+        specifier: 0.1.15
+        version: 0.1.15(676d282cdac73108ad7f1173fd8497b0)
       '@langchain/core':
         specifier: ^0.3.40
         version: 0.3.44(openai@4.93.0(ws@8.18.1)(zod@3.24.2))
@@ -243,8 +243,8 @@ packages:
   '@aws-sdk/util-utf8-browser@3.259.0':
     resolution: {integrity: sha512-UvFa/vR+e19XookZF8RzFZBrw2EUkQWxiBW0yYQAhvk3C+QVGl0H3ouca8LDBlBfQKXwmW3huo/59H8rwb1wJw==}
 
-  '@blaxel/sdk@0.1.14':
-    resolution: {integrity: sha512-7p5aBtkV353O5ntOqkAg1yKZfvztUuf9afpAyT/7/pU1iRWb5wRLGZtWXXrIj0562RxO2OEfy72Z4anY65uQ4w==}
+  '@blaxel/sdk@0.1.15':
+    resolution: {integrity: sha512-v+KMIyaV6Hr4YSYgEJBoCoig6HyKG5IZ/RgAlF3I8QglHzOY6jAj4FVvTgCxbY+VY2SX9lgVe2btmVGWM7cySg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@ai-sdk/anthropic': ^1.2.9
@@ -2935,7 +2935,7 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@blaxel/sdk@0.1.14(676d282cdac73108ad7f1173fd8497b0)':
+  '@blaxel/sdk@0.1.15(676d282cdac73108ad7f1173fd8497b0)':
     dependencies:
       '@hey-api/client-fetch': 0.5.7
       '@modelcontextprotocol/sdk': 1.9.0
