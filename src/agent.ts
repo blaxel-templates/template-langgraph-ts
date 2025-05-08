@@ -1,4 +1,4 @@
-import { blModel, blTools, logger } from "@blaxel/sdk";
+import { blModel, blTools } from "@blaxel/langgraph";
 import { HumanMessage } from "@langchain/core/messages";
 import { tool } from "@langchain/core/tools";
 import { createReactAgent } from "@langchain/langgraph/prebuilt";
@@ -12,14 +12,15 @@ export default async function agent(
   input: string,
   stream: Stream
 ): Promise<void> {
+  const llm = await blModel("sandbox-openai");
   const streamResponse = await createReactAgent({
-    llm: await blModel("sandbox-openai").ToLangChain(),
+    llm,
     prompt: "If the user ask for the weather, use the weather tool.",
     tools: [
-      ...(await blTools(["blaxel-search"]).ToLangChain()),
+      ...(await blTools(["blaxel-search"])),
       tool(
         async (input: any) => {
-          logger.debug("TOOLCALLING: local weather", input);
+          console.debug("TOOLCALLING: local weather", input);
           return `The weather in ${input.city} is sunny`;
         },
         {
