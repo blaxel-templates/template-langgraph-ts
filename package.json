@@ -12,20 +12,18 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc"
   },
-  "type": "module",
   "dependencies": {
-    "@blaxel/core": "0.2.0-dev11",
-    "@blaxel/langgraph": "0.2.0-dev11",
-    "@blaxel/telemetry": "0.2.0-dev11",
+    "@blaxel/core": "^0.2.0",
+    "@blaxel/langgraph": "^0.2.0",
+    "@blaxel/telemetry": "^0.2.0",
     "@langchain/core": "^0.3.51",
     "@langchain/langgraph": "^0.2.68",
     "fastify": "^5.3.2",
-    "langchain": "^0.3.24",
-    "zod": "^3.24.3"
+    "zod": "^3.24.4"
   },
   "devDependencies": {
     "@types/express": "^5.0.1",
-    "@types/node": "^22.15.3",
+    "@types/node": "^22.15.9",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   }

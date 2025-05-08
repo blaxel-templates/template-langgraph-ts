@@ -1,5 +1,6 @@
-import { env } from "@blaxel/core";
+import '@blaxel/langgraph';
 import '@blaxel/telemetry';
+import { env } from "@blaxel/core";
 import Fastify from "fastify";
 import agent from "./agent.js";
 

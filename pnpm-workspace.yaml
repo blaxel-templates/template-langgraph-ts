@@ -1,0 +1,4 @@
+overrides:
+  '@blaxel/langgraph': link:../../../sdk-ts/@blaxel/langgraph
+  '@blaxel/core': link:../../../sdk-ts/@blaxel/core
+  '@blaxel/telemetry': link:../../../sdk-ts/@blaxel/telemetry
