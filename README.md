@@ -196,7 +196,7 @@ If you need help with this template:
 - [Submit an issue](https://github.com/blaxel-templates/template-langgraph-ts/issues) for bug reports or feature requests
 - Visit the [Blaxel Documentation](https://docs.blaxel.ai) for platform guidance
 - Check the [LangGraph.js Documentation](https://langchain-ai.github.io/langgraphjs/) for framework-specific help
-- Join our [Discord Community](https://discord.gg/G3NqzUPcHP) for real-time assistance
+- Join our [Discord Community](https://discord.gg/CsWKUZUHFQ) for real-time assistance
 
 ## 📄 License
 
