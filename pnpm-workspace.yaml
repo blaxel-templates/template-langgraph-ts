@@ -1,0 +1,11 @@
+allowBuilds:
+  esbuild: true
+  protobufjs: true
+overrides:
+  'js-yaml@>=4.0.0 <4.3.2': ^4.3.2
+  'toml@<4.2.0': ^4.2.0
+  '@traceloop/instrumentation-langchain>@langchain/core': ^1.0.6
+packageExtensions:
+  cohere-ai@7.19.0:
+    dependencies:
+      '@aws-crypto/sha256-js': ^5.2.0
