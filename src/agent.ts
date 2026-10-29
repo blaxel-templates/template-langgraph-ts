@@ -44,6 +44,7 @@ export default async function agent(
     }
   );
 
+  let streamed = false;
   for await (const event of streamResponse) {
     if (event.event === "on_chat_model_stream") {
       const chunk = event.data.chunk;
@@ -51,8 +52,15 @@ export default async function agent(
         const content = typeof chunk.content === "string" ? chunk.content : String(chunk.content);
         // Only write content if there are no tool call chunks (avoid streaming tool call tokens)
         if (content && (!chunk.tool_call_chunks || chunk.tool_call_chunks.length === 0)) {
+          streamed = true;
           stream.write(content);
         }
+      }
+    } else if (event.event === "on_chain_end" && event.name === "LangGraph" && !streamed) {
+      // No token stream reached us (the model answered in one piece): send the final answer instead
+      const last = event.data.output?.messages?.at(-1);
+      if (typeof last?.content === "string") {
+        stream.write(last.content);
       }
     }
   }
