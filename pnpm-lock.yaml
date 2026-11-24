@@ -26,14 +26,14 @@ importers:
   .:
     dependencies:
       '@blaxel/core':
-        specifier: 0.3.40
-        version: 0.3.40(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))
+        specifier: 0.3.41
+        version: 0.3.41(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))
       '@blaxel/langgraph':
-        specifier: 0.3.40
-        version: 0.3.40(@aws-sdk/credential-provider-node@3.972.85)(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(@opentelemetry/api@1.9.1)(@opentelemetry/sdk-trace-base@2.12.0(@opentelemetry/api@1.9.1))(@smithy/signature-v4@5.7.4)(openai@7.32.0(@aws-sdk/credential-provider-node@3.972.85)(@smithy/signature-v4@5.7.4)(undici@6.29.1)(ws@8.22.0)(zod@4.6.6))(ws@8.22.0)
+        specifier: 0.3.41
+        version: 0.3.41(@aws-sdk/credential-provider-node@3.972.85)(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(@opentelemetry/api@1.9.1)(@opentelemetry/sdk-trace-base@2.12.0(@opentelemetry/api@1.9.1))(@smithy/signature-v4@5.7.4)(openai@7.32.0(@aws-sdk/credential-provider-node@3.972.85)(@smithy/signature-v4@5.7.4)(undici@6.29.1)(ws@8.22.0)(zod@4.6.6))(ws@8.22.0)
       '@blaxel/telemetry':
-        specifier: 0.3.40
-        version: 0.3.40(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(zod@4.6.6)
+        specifier: 0.3.41
+        version: 0.3.41(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(zod@4.6.6)
       '@langchain/core':
         specifier: ^1.0.6
         version: 1.2.17(@opentelemetry/api@1.9.1)(@opentelemetry/sdk-trace-base@2.12.0(@opentelemetry/api@1.9.1))(openai@7.32.0(@aws-sdk/credential-provider-node@3.972.85)(@smithy/signature-v4@5.7.4)(undici@6.29.1)(ws@8.22.0)(zod@4.6.6))(ws@8.22.0)
@@ -206,16 +206,16 @@ packages:
     resolution: {integrity: sha512-NpugTzbKgGrNe45Ui32cN8vCFFMxVtP/9rtfwv0nP5FRDAjvYBxJcLVpYA9mr1jxP6cnIT7x9LUzuDTbWYYNRA==}
     engines: {node: '>=6.9.0'}
 
-  '@blaxel/core@0.3.40':
-    resolution: {integrity: sha512-JJtyijO0HNTrZK9Dud/kA9PfoFWxQrf7aZMm9/BPzwJDObx6x04zCEICVw3H9C8GNoYGV48rRWyX0WoRANcRxA==}
+  '@blaxel/core@0.3.41':
+    resolution: {integrity: sha512-j8yhb/Bv27lFARMz3LmHJbKyCh+kjI8LZ2Tq6ANO3iSUfrKcx+ukWJmL/TeoPovX/yJkYikAWNr1MTXFQmONtA==}
     engines: {node: '>=18'}
 
-  '@blaxel/langgraph@0.3.40':
-    resolution: {integrity: sha512-G3AmLTi9abtpGlRtbwm0HY769emxGN7sf1223QnSGkCQ94DwCP2OE2Mrgc8ZnOALK/hwK2DEcNKUSNX8/M18bg==}
+  '@blaxel/langgraph@0.3.41':
+    resolution: {integrity: sha512-ZLOzZAg9idPhvWtsgUAq13iM+cj4SGUJRRgMWp5wTZeTZ9u8c21Fy5oZfQ/trSSKrsuuDUz/m8KTUHd7Wb7fJg==}
     engines: {node: '>=18'}
 
-  '@blaxel/telemetry@0.3.40':
-    resolution: {integrity: sha512-oJCJ6KcRPrXGHI/3Uf/xAvTyszvRvHW5b7Uz0SXVTyurguCGrlwi086KnfIjU3nbtMR8MCfShQE4NK6yBPfzUQ==}
+  '@blaxel/telemetry@0.3.41':
+    resolution: {integrity: sha512-Fpp3AVB3tMDI1nbX78DpyUz9W7jpr1tB1Wj/gVAiKXSHmBlzJ6OzzlPjru7cT3xPqYtKWB+dj28Xb3QdMxTH1w==}
     engines: {node: '>=18'}
 
   '@cfworker/json-schema@4.1.1':
@@ -2296,7 +2296,7 @@ snapshots:
 
   '@babel/runtime@7.29.10': {}
 
-  '@blaxel/core@0.3.40(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))':
+  '@blaxel/core@0.3.41(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))':
     dependencies:
       '@hey-api/client-fetch': 0.10.2(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))
       '@modelcontextprotocol/sdk': 1.32.1(@cfworker/json-schema@4.1.1)(zod@4.6.6)
@@ -2322,9 +2322,9 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@blaxel/langgraph@0.3.40(@aws-sdk/credential-provider-node@3.972.85)(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(@opentelemetry/api@1.9.1)(@opentelemetry/sdk-trace-base@2.12.0(@opentelemetry/api@1.9.1))(@smithy/signature-v4@5.7.4)(openai@7.32.0(@aws-sdk/credential-provider-node@3.972.85)(@smithy/signature-v4@5.7.4)(undici@6.29.1)(ws@8.22.0)(zod@4.6.6))(ws@8.22.0)':
+  '@blaxel/langgraph@0.3.41(@aws-sdk/credential-provider-node@3.972.85)(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(@opentelemetry/api@1.9.1)(@opentelemetry/sdk-trace-base@2.12.0(@opentelemetry/api@1.9.1))(@smithy/signature-v4@5.7.4)(openai@7.32.0(@aws-sdk/credential-provider-node@3.972.85)(@smithy/signature-v4@5.7.4)(undici@6.29.1)(ws@8.22.0)(zod@4.6.6))(ws@8.22.0)':
     dependencies:
-      '@blaxel/core': 0.3.40(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))
+      '@blaxel/core': 0.3.41(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))
       '@google/generative-ai': 0.24.1
       '@langchain/anthropic': 1.5.12(@langchain/core@1.2.17(@opentelemetry/api@1.9.1)(@opentelemetry/sdk-trace-base@2.12.0(@opentelemetry/api@1.9.1))(openai@7.32.0(@aws-sdk/credential-provider-node@3.972.85)(@smithy/signature-v4@5.7.4)(undici@6.29.1)(ws@8.22.0)(zod@4.6.6))(ws@8.22.0))
       '@langchain/cohere': 1.1.0(@langchain/core@1.2.17(@opentelemetry/api@1.9.1)(@opentelemetry/sdk-trace-base@2.12.0(@opentelemetry/api@1.9.1))(openai@7.32.0(@aws-sdk/credential-provider-node@3.972.85)(@smithy/signature-v4@5.7.4)(undici@6.29.1)(ws@8.22.0)(zod@4.6.6))(ws@8.22.0))
@@ -2360,14 +2360,14 @@ snapshots:
       - utf-8-validate
       - ws
 
-  '@blaxel/telemetry@0.3.40(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(zod@4.6.6)':
+  '@blaxel/telemetry@0.3.41(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))(zod@4.6.6)':
     dependencies:
       '@ai-sdk/anthropic': 2.0.109(zod@4.6.6)
       '@ai-sdk/cerebras': 1.0.63(zod@4.6.6)
       '@ai-sdk/google': 2.0.102(zod@4.6.6)
       '@ai-sdk/groq': 2.0.57(zod@4.6.6)
       '@ai-sdk/openai': 2.0.133(zod@4.6.6)
-      '@blaxel/core': 0.3.40(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))
+      '@blaxel/core': 0.3.41(@cfworker/json-schema@4.1.1)(@hey-api/openapi-ts@0.99.0(typescript@5.9.3))
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/api-logs': 0.200.0
       '@opentelemetry/exporter-logs-otlp-http': 0.200.0(@opentelemetry/api@1.9.1)
